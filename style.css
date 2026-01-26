@@ -1,3 +1,59 @@
-body{
-  background-color: rgb(255, 255, 255);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem 10%;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+.header .logo {
+  margin-right: auto;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: #444;
+  text-decoration: none;
+  font-weight: bold;
+   
+}
+
+.logo img{
+  width: 30px;
+  border-radius: 50%;
+}
+
+.logo span{
+  color: #000;
+}
+.header .navbar {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  color: #444;
+}
+
+.header .navbar a {
+  margin-right: 2rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+  text-decoration: none;
+}
+
+.header .navbar a:hover {
+  color: #780eb5;
+}
+
