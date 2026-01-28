@@ -1,11 +1,8 @@
 .containerMain {
-  margin: 10px;
-  padding: 40px;
+  margin: 5px;
+  padding: 0;
 }
-
 main .AppFrame1 {
-  margin-top: 10px;
-  padding: 10px;
   background-image:
     linear-gradient(to right bottom, hsla(41, 86%, 38%, 0.5), rgba(69, 69, 69, 0.637)),
     url(../images/pexels-rachel-claire-5865196.jpg);
@@ -110,99 +107,111 @@ main .AppFrame1 {
   }
 }
 
+ @media (max-width:380px) {
+  .containerMain {
+    margin: 2px;
+    padding: 10px;
+  }
+  .Heading-Primary-main {
+    font-size: 25px;
+    font-weight: 200;
+    /* letter-spacing: 5px; */
+  }
+  .Heading-Primary-sup {
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 5px;
+  } 
+}
 /* mobile - small screen*/
 @media (max-width: 576px) {
   .containerMain {
-    margin: 4px;
-    padding: 5px;
+    margin: 3px;
+   
   }
   .Heading-Primary-main {
-  font-size: 80px;
-  font-weight: 400;
-  letter-spacing: 15px;
-}
-.Heading-Primary-sup {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 10px;
-}
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 18px;
+  }
+  .Heading-Primary-sup {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 10px;
+  }
 }
 /* medium*/
 @media (min-width: 577px) and (max-width: 767.98px) {
   .containerMain {
-    margin: 4px;
-    padding: 10px;
-  }
-  
+    margin: 5px;
 
-.Heading-Primary-main {
-  font-size: 110px;
-  font-weight: 400;
-  letter-spacing: 15px;
-}
-.Heading-Primary-sup {
-  font-size: 60px;
-  font-weight: 700;
-  letter-spacing: 12px;
-}
-.Heading-Primary-main {
-  font-size: 80px;
-  font-weight: 400;
-  letter-spacing: 35px;
-}
-.Heading-Primary-sup {
-  font-size: 40px;
-  font-weight: 700;
-  letter-spacing: 17px;
-}
-  
+  }
+
+  .Heading-Primary-main {
+    font-size: 110px;
+    font-weight: 400;
+    letter-spacing: 15px;
+  }
+  .Heading-Primary-sup {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 12px;
+  }
+  .Heading-Primary-main {
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 20px;
+  }
+  .Heading-Primary-sup {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 10px;
+  }
 }
 
 @media (min-width: 767.98px) and (max-width: 992px) {
   .containerMain {
-    margin: 8px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
   }
   .Heading-Primary-main {
-  font-size: 100px;
-  font-weight: 400;
-  letter-spacing: 35px;
-}
-.Heading-Primary-sup {
-  font-size: 50px;
-  font-weight: 700;
-  letter-spacing: 17px;
-}
+    font-size: 90px;
+    font-weight: 400;
+    letter-spacing: 15px !important;
+  }
+  .Heading-Primary-sup {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 9px;
+  }
 }
 @media (min-width: 993px) and (max-width: 1199px) {
   .containerMain {
     margin: 15px;
-    padding: 30px;
   }
   .Heading-Primary-main {
-  font-size: 110px;
-  font-weight: 400;
-  letter-spacing: 20px;
-}
-.Heading-Primary-sup {
-  font-size: 60px;
-  font-weight: 700;
-  letter-spacing: 11px;
-}
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: 10px;
+  }
+  .Heading-Primary-sup {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 11px;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
   .containerMain {
     margin: 20px;
-    padding: 40px;
   }
   .Heading-Primary-main {
-  font-size: 130px;
-  font-weight: 400;
-  letter-spacing: 25px;
-}
-.Heading-Primary-sup {
-  font-size: 60px;
-  font-weight: 700;
-  letter-spacing: 12px;
-}
+    font-size: 110px;
+    font-weight: 400;
+    letter-spacing: 20px;
+  }
+  .Heading-Primary-sup {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 12px;
+  }
 }
