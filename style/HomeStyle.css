@@ -5,7 +5,7 @@
 main .AppFrame1 {
   background-image:
     linear-gradient(to right bottom, hsla(41, 86%, 38%, 0.5), rgba(69, 69, 69, 0.637)),
-    url(../images/pexels-rachel-claire-5865196.jpg);
+    url(../images/pexels-mart-production-7679859.jpg);
   width: 100%;
   height: 80vh !important;
   background-size: cover;
@@ -117,7 +117,7 @@ main .AppFrame1 {
     -webkit-transform: translateY(100px);
     -moz-transform: translateY(100px);
     -ms-transform: translateY(100px);
-}
+  }
   100% {
     opacity: 1;
     transform: translate(0);
@@ -145,7 +145,6 @@ main .AppFrame1 {
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
- 
 }
 .btn:hover {
   transform: translateY(-3px);
@@ -163,10 +162,9 @@ main .AppFrame1 {
   font-weight: 500;
 }
 
-
-.btn-animation{
-   animation: moveInBottom 2s ease-out ;
-  -webkit-animation: moveInBottom 2s ease-out ;
+.btn-animation {
+  animation: moveInBottom 2s ease-out;
+  -webkit-animation: moveInBottom 2s ease-out;
 }
 
 /* medium*/
@@ -187,10 +185,8 @@ main .AppFrame1 {
     letter-spacing: 5px !important;
   }
   .btn-yellow {
- 
-  font-size: 14px !important;
-
-}
+    font-size: 14px !important;
+  }
 }
 /* mobile - small screen*/
 @media (max-width: 576px) {
