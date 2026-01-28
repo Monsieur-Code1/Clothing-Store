@@ -4,6 +4,20 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
+/* Add new font */
+@font-face {
+  font-family:myFont1 ;
+  src: url(./fonts/MozillaHeadline-Regular.ttf);
+}
+@font-face {
+  font-family:myFont2 ;
+  src: url(./fonts/MozillaHeadline-SemiBold.ttf);
+}
+/* =================== */
+body{
+
+}
+
 
 .header {
   position: sticky;
