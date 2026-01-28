@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "title": "Men's Casual Shirt",
+    "price": 29.99,
+    "description": "Comfortable cotton shirt for daily wear",
+    "category": "mens-shirts",
+    "thumbnail": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 2,
+    "title": "Women's Summer Dress",
+    "price": 39.99,
+    "description": "Light and colorful summer dress",
+    "category": "womens-dresses",
+    "thumbnail": "https://images.unsplash.com/photo-1520975912980-7b15c2f519d4?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 3,
+    "title": "Men's Formal Shirt",
+    "price": 34.99,
+    "description": "Perfect shirt for office and formal events",
+    "category": "mens-shirts",
+    "thumbnail": "https://images.unsplash.com/photo-1600185367965-2b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 4,
+    "title": "Women's Casual T-Shirt",
+    "price": 19.99,
+    "description": "Comfortable casual t-shirt for everyday",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 5,
+    "title": "Men's Jeans",
+    "price": 49.99,
+    "description": "Classic blue denim jeans",
+    "category": "mens-pants",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313614-2f6fa3fcb82d?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 6,
+    "title": "Women's Skirt",
+    "price": 29.99,
+    "description": "Stylish skirt for daily wear",
+    "category": "womens-bottoms",
+    "thumbnail": "https://images.unsplash.com/photo-1580910051074-4b2a4d1e2de2?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 7,
+    "title": "Men's Hoodie",
+    "price": 39.99,
+    "description": "Warm and cozy hoodie",
+    "category": "mens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1580910051074-4b2a4d1e2de2?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 8,
+    "title": "Women's Hoodie",
+    "price": 42.99,
+    "description": "Comfortable hoodie for casual wear",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 9,
+    "title": "Men's Sweatshirt",
+    "price": 35.99,
+    "description": "Soft sweatshirt for daily activities",
+    "category": "mens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-0f4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 10,
+    "title": "Women's Jacket",
+    "price": 59.99,
+    "description": "Trendy jacket for winter",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1542060748-2e2c0195e13e?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 11,
+    "title": "Men's Shorts",
+    "price": 24.99,
+    "description": "Comfortable summer shorts",
+    "category": "mens-bottoms",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465169-8ef3fbd36d0e?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 12,
+    "title": "Women's Leggings",
+    "price": 29.99,
+    "description": "Flexible leggings for fitness and daily wear",
+    "category": "womens-bottoms",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465169-2f6fa3fcb82d?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 13,
+    "title": "Men's Jacket",
+    "price": 69.99,
+    "description": "Casual jacket for autumn",
+    "category": "mens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313609-3b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 14,
+    "title": "Women's Blouse",
+    "price": 27.99,
+    "description": "Elegant blouse for office and casual wear",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1600185367965-1a2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 15,
+    "title": "Men's Tank Top",
+    "price": 19.99,
+    "description": "Lightweight tank top for summer",
+    "category": "mens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-0a4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 16,
+    "title": "Women's Tank Top",
+    "price": 22.99,
+    "description": "Comfortable and stylish tank top",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-0b4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 17,
+    "title": "Men's Dress Pants",
+    "price": 55.99,
+    "description": "Formal pants for office and events",
+    "category": "mens-pants",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313604-2b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 18,
+    "title": "Women's Dress Pants",
+    "price": 49.99,
+    "description": "Elegant pants for office",
+    "category": "womens-bottoms",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465169-3f6fa3fcb82d?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 19,
+    "title": "Men's Polo Shirt",
+    "price": 32.99,
+    "description": "Casual polo shirt for all occasions",
+    "category": "mens-shirts",
+    "thumbnail": "https://images.unsplash.com/photo-1600185367965-2b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 20,
+    "title": "Women's Polo Shirt",
+    "price": 35.99,
+    "description": "Stylish polo shirt for casual wear",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 21,
+    "title": "Men's Sweatpants",
+    "price": 34.99,
+    "description": "Comfortable sweatpants for home or gym",
+    "category": "mens-bottoms",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-0c4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 22,
+    "title": "Women's Sweatpants",
+    "price": 36.99,
+    "description": "Cozy sweatpants for casual wear",
+    "category": "womens-bottoms",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-0d4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 23,
+    "title": "Men's Jacket Windbreaker",
+    "price": 59.99,
+    "description": "Windbreaker jacket for outdoor",
+    "category": "mens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313604-3b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 24,
+    "title": "Women's Jacket Windbreaker",
+    "price": 62.99,
+    "description": "Windbreaker for outdoor activities",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313604-4b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 25,
+    "title": "Men's Trousers",
+    "price": 48.99,
+    "description": "Stylish trousers for casual and formal",
+    "category": "mens-pants",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313604-5b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 26,
+    "title": "Women's Trousers",
+    "price": 46.99,
+    "description": "Elegant trousers for office or events",
+    "category": "womens-bottoms",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313604-6b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 27,
+    "title": "Men's Leather Jacket",
+    "price": 79.99,
+    "description": "Classic leather jacket",
+    "category": "mens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313604-7b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 28,
+    "title": "Women's Leather Jacket",
+    "price": 82.99,
+    "description": "Stylish leather jacket for women",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313604-8b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 29,
+    "title": "Men's Shorts Casual",
+    "price": 24.99,
+    "description": "Lightweight shorts for summer",
+    "category": "mens-bottoms",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-0e4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 30,
+    "title": "Women's Shorts Casual",
+    "price": 27.99,
+    "description": "Comfortable casual shorts",
+    "category": "womens-bottoms",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-0f4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 31,
+    "title": "Men's Hoodie Sport",
+    "price": 39.99,
+    "description": "Sporty hoodie for active wear",
+    "category": "mens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-1a4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 32,
+    "title": "Women's Hoodie Sport",
+    "price": 42.99,
+    "description": "Hoodie for active women",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-1b4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 33,
+    "title": "Men's Dress Shirt",
+    "price": 34.99,
+    "description": "Formal shirt for office and events",
+    "category": "mens-shirts",
+    "thumbnail": "https://images.unsplash.com/photo-1600185367965-3b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 34,
+    "title": "Women's Dress Blouse",
+    "price": 32.99,
+    "description": "Elegant blouse for office or party",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1600185367965-4b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 35,
+    "title": "Men's Casual Jacket",
+    "price": 49.99,
+    "description": "Stylish casual jacket",
+    "category": "mens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313604-9b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 36,
+    "title": "Women's Casual Jacket",
+    "price": 52.99,
+    "description": "Comfortable casual jacket",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313604-10b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 37,
+    "title": "Men's Polo Casual",
+    "price": 32.99,
+    "description": "Polo shirt for everyday wear",
+    "category": "mens-shirts",
+    "thumbnail": "https://images.unsplash.com/photo-1600185367965-5b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 38,
+    "title": "Women's Polo Casual",
+    "price": 35.99,
+    "description": "Comfortable polo for women",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1600185367965-6b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 39,
+    "title": "Men's Sweatshirt Sport",
+    "price": 37.99,
+    "description": "Sweatshirt for sports",
+    "category": "mens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-2a4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 40,
+    "title": "Women's Sweatshirt Sport",
+    "price": 39.99,
+    "description": "Comfortable sweatshirt for women",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-2b4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 41,
+    "title": "Men's Jeans Slim",
+    "price": 49.99,
+    "description": "Slim fit denim jeans",
+    "category": "mens-pants",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313604-11b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 42,
+    "title": "Women's Jeans Skinny",
+    "price": 52.99,
+    "description": "Skinny fit jeans",
+    "category": "womens-bottoms",
+    "thumbnail": "https://images.unsplash.com/photo-1602810313604-12b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 43,
+    "title": "Men's Shorts Sport",
+    "price": 25.99,
+    "description": "Sporty shorts for summer",
+    "category": "mens-bottoms",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-3a4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 44,
+    "title": "Women's Shorts Sport",
+    "price": 27.99,
+    "description": "Sporty shorts for women",
+    "category": "womens-bottoms",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-3b4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 45,
+    "title": "Men's Hoodie Casual",
+    "price": 39.99,
+    "description": "Casual hoodie for daily wear",
+    "category": "mens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-4a4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 46,
+    "title": "Women's Hoodie Casual",
+    "price": 42.99,
+    "description": "Casual hoodie for women",
+    "category": "womens-tops",
+    "thumbnail": "https://images.unsplash.com/photo-1593032465173-4b4f8e6e51ed?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 47,
+    "title": "Men's Dress Shoes",
+    "price": 69.99,
+    "description": "Classic formal shoes",
+    "category": "mens-shoes",
+    "thumbnail": "https://images.unsplash.com/photo-1600185367965-7b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 48,
+    "title": "Women's Heels",
+    "price": 59.99,
+    "description": "Elegant high heels",
+    "category": "womens-shoes",
+    "thumbnail": "https://images.unsplash.com/photo-1600185367965-8b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 49,
+    "title": "Men's Sneakers",
+    "price": 79.99,
+    "description": "Casual sneakers for daily wear",
+    "category": "mens-shoes",
+    "thumbnail": "https://images.unsplash.com/photo-1600185367965-9b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  },
+  {
+    "id": 50,
+    "title": "Women's Sneakers",
+    "price": 82.99,
+    "description": "Comfortable sneakers for women",
+    "category": "womens-shoes",
+    "thumbnail": "https://images.unsplash.com/photo-1600185367965-10b2a7c0d868f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=400"
+  }
+]

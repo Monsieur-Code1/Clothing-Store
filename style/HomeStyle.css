@@ -15,6 +15,7 @@ main .AppFrame1 {
 
 .text-box {
   position: absolute;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -31,6 +32,7 @@ main .AppFrame1 {
   text-align: center;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  margin-bottom: 40px;
 }
 .Heading-Primary-main {
   font-family: myFont1;
@@ -107,27 +109,93 @@ main .AppFrame1 {
   }
 }
 
- @media (max-width:380px) {
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+    -o-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+}
+  100% {
+    opacity: 1;
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+  }
+}
+
+/* btn */
+
+.btn:link {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+ 
+}
+.btn:hover {
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(26, 40, 5, 0.2) !important;
+}
+.btn-yellow {
+  background-color: #ce7c08 !important;
+  color: #ffffff !important;
+  font-family: myFont1;
+  font-size: 20px !important;
+  font-weight: 500;
+}
+
+
+.btn-animation{
+   animation: moveInBottom 2s ease-out ;
+  -webkit-animation: moveInBottom 2s ease-out ;
+}
+
+/* medium*/
+
+@media (max-width: 380px) {
   .containerMain {
-    margin: 2px;
-    padding: 10px;
+    margin: 2px !important;
+    padding: 10px !important;
   }
   .Heading-Primary-main {
-    font-size: 25px;
-    font-weight: 200;
+    font-size: 40px !important;
+    font-weight: 200 !important;
     /* letter-spacing: 5px; */
   }
   .Heading-Primary-sup {
-    font-size: 17px;
-    font-weight: 300;
-    letter-spacing: 5px;
-  } 
+    font-size: 20px !important;
+    font-weight: 300 !important;
+    letter-spacing: 5px !important;
+  }
+  .btn-yellow {
+ 
+  font-size: 14px !important;
+
+}
 }
 /* mobile - small screen*/
 @media (max-width: 576px) {
   .containerMain {
     margin: 3px;
-   
   }
   .Heading-Primary-main {
     font-size: 80px;
@@ -137,34 +205,6 @@ main .AppFrame1 {
   .Heading-Primary-sup {
     font-size: 30px;
     font-weight: 500;
-    letter-spacing: 10px;
-  }
-}
-/* medium*/
-@media (min-width: 577px) and (max-width: 767.98px) {
-  .containerMain {
-    margin: 5px;
-
-  }
-
-  .Heading-Primary-main {
-    font-size: 110px;
-    font-weight: 400;
-    letter-spacing: 15px;
-  }
-  .Heading-Primary-sup {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 12px;
-  }
-  .Heading-Primary-main {
-    font-size: 80px;
-    font-weight: 400;
-    letter-spacing: 20px;
-  }
-  .Heading-Primary-sup {
-    font-size: 20px;
-    font-weight: 700;
     letter-spacing: 10px;
   }
 }
