@@ -58,23 +58,22 @@ main .AppFrame1 {
   animation-timing-function: ease-out;
 }
 
-
 @keyframes moveInLift {
   0% {
     opacity: 0;
-    transform:translateX(-100px);
-    -o-transform:translateX(-100px);
-    -webkit-transform:translateX(-100px);
-    -moz-transform:translateX(-100px);
-    -ms-transform:translateX(-100px);
-}
+    transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+  }
   80% {
     transform: translateX(10px);
     -webkit-transform: translateX(10px);
     -moz-transform: translateX(10px);
     -ms-transform: translateX(10px);
     -o-transform: translateX(10px);
-}
+  }
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -82,25 +81,25 @@ main .AppFrame1 {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-}
+  }
 }
 
 @keyframes moveInRight {
   0% {
     opacity: 0;
-    transform:translateX(100px);
-    -o-transform:translateX(100px);
-    -webkit-transform:translateX(100px);
-    -moz-transform:translateX(100px);
-    -ms-transform:translateX(100px);
-}
+    transform: translateX(100px);
+    -o-transform: translateX(100px);
+    -webkit-transform: translateX(100px);
+    -moz-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+  }
   80% {
     transform: translateX(-10px);
     -webkit-transform: translateX(-10px);
     -moz-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     -o-transform: translateX(-10px);
-}
+  }
   100% {
     opacity: 1;
     transform: translate(0);
@@ -108,5 +107,102 @@ main .AppFrame1 {
     -moz-transform: translate(0);
     -ms-transform: translate(0);
     -o-transform: translate(0);
+  }
+}
+
+/* mobile - small screen*/
+@media (max-width: 576px) {
+  .containerMain {
+    margin: 4px;
+    padding: 5px;
+  }
+  .Heading-Primary-main {
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 15px;
+}
+.Heading-Primary-sup {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+}
+/* medium*/
+@media (min-width: 577px) and (max-width: 767.98px) {
+  .containerMain {
+    margin: 4px;
+    padding: 10px;
+  }
+  
+
+.Heading-Primary-main {
+  font-size: 110px;
+  font-weight: 400;
+  letter-spacing: 15px;
+}
+.Heading-Primary-sup {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 12px;
+}
+.Heading-Primary-main {
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 35px;
+}
+.Heading-Primary-sup {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 17px;
+}
+  
+}
+
+@media (min-width: 767.98px) and (max-width: 992px) {
+  .containerMain {
+    margin: 8px;
+    padding: 20px;
+  }
+  .Heading-Primary-main {
+  font-size: 100px;
+  font-weight: 400;
+  letter-spacing: 35px;
+}
+.Heading-Primary-sup {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 17px;
+}
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+  .containerMain {
+    margin: 15px;
+    padding: 30px;
+  }
+  .Heading-Primary-main {
+  font-size: 110px;
+  font-weight: 400;
+  letter-spacing: 20px;
+}
+.Heading-Primary-sup {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 11px;
+}
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .containerMain {
+    margin: 20px;
+    padding: 40px;
+  }
+  .Heading-Primary-main {
+  font-size: 130px;
+  font-weight: 400;
+  letter-spacing: 25px;
+}
+.Heading-Primary-sup {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 12px;
 }
 }
