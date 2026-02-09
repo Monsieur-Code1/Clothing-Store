@@ -1,0 +1,94 @@
+/* Reset Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.container .logo span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px; 
+  letter-spacing: 3%;
+  color: #000;
+  text-decoration: none; /* يشيل الخط تحت النص */
+  display: inline-block;
+  width: 118px;
+  height: 24px;
+}
+
+/* Navbar */
+.navbar {
+  width: 367px; 
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+header .navbar a {
+  text-decoration: none; /* يشيل الخط تحت الروابط */
+  color: #333;
+  font-weight: bold;
+  width: 48px;
+  height: 24px;
+}
+
+header .navbar a:hover {
+  color: #394ae6;
+}
+
+/* Icons Container */
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: 50px;
+  font-size: 22px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Search Box */
+.search-box {
+  position: relative;
+  width: 250px;
+
+
+}
+
+.search-box input {
+  width: 100%; 
+  padding: 7px 40px 7px 20px; /* مساحة على اليمين للأيقونة */
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  background: #F5F5F5;
+
+
+}
+
+.search-box i {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* مسافة من حافة الصندوق */
+  transform: translateY(-50%);
+  color: #333;
+  cursor: pointer;
+  font-size: 18px;
+}
