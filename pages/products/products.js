@@ -1,6 +1,8 @@
 let products = [];
 async function fetchData() {
+
   // const res = await fetch(`https://fakestoreapi.com/products`);
+
   const res = await fetch(`https://dummyjson.com/products?limit=100
 `);
 
@@ -8,7 +10,7 @@ async function fetchData() {
   console.log(products);
   renderProducts();
 }
-
+ـ
 fetchData().then(() => {
   console.log(products);
 });
