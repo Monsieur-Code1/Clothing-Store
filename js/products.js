@@ -28,7 +28,7 @@ function showProduct() {
             <img src='${el.images ? el.images[0] : el.images[1]}' alt='${el.brand}' />
             <h3>${el.brand || el.title}</h3>
 
-            <p class="price"><span class="sale">${el.price}$</span> <span class="old">${(el.price/(1-(el.discountPercentage/100))).toFixed(2)} $
+            <p class="price"><span class="sale">${el.price}$</span> <span class="old">${(el.price / (1 - el.discountPercentage / 100)).toFixed(2)} $
 </span></p>
             <div class="rating">
             ${stars}
@@ -43,7 +43,6 @@ function showProduct() {
     .join('');
   document.getElementById('products').innerHTML = showData;
 }
-fetchApi(limitData, category);
 
 // التعامل مع ازرار الخاصه بعرض التصنيفات المختلفه من المنتجات
 let btAll = document.getElementById('all');
@@ -162,3 +161,7 @@ btnViewAll.addEventListener('click', () => {
 
   fetchApi(limitData, category); // نحدث المنتجات
 });
+
+activateBtn(btAll);
+toggleViewAllBtn();
+fetchApi(limitData, category);
