@@ -39,3 +39,16 @@ function showProduct() {
   document.getElementById('products').innerHTML = showData;
 }
 fetchApi(limitData);
+
+// التغيير في عرض المنتجات في زر عرض الكل وعرض اقل مع تغيير نص الزر
+let btnViewAll = document.getElementById('View-ALL-Products');
+btnViewAll.addEventListener('click', () => {
+  if (limitData === 15) {
+    limitData = 195;
+    btnViewAll.innerHTML = 'View Less Products';
+  } else {
+    limitData = 15;
+    btnViewAll.innerHTML = 'View All Products';
+  }
+  fetchApi(limitData); // نحدث المنتجات
+});
