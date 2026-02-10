@@ -40,9 +40,6 @@ const headerStyle = `
 }
 `;
 
-
-
-
 // إضافة الـ CSS مرة واحدة
 const style = document.createElement('style');
 style.innerHTML = headerStyle;
