@@ -15,6 +15,7 @@ async function fetchApi(limitData, category) {
   showProduct();
 }
 
+
 function showProduct() {
   const showData = products.products
     .map((el) => {
@@ -23,7 +24,7 @@ function showProduct() {
       for (let i = 0; i < rating; i++) {
         stars += "<i class='star fas fa-star'></i>";
       }
-      return `<div class="product-card">
+      return `<div id="product-card" data-id=${el.id}  class="product-card">
             <div class="discount">${el.discountPercentage}%</div>
             <img src='${el.images ? el.images[0] : el.images[1]}' alt='${el.brand}' />
             <h3>${el.brand || el.title}</h3>
@@ -38,10 +39,20 @@ function showProduct() {
               <button class="add-cart">Add To Cart</button>
               <i class="heart far fa-heart"></i>
             </div>
-          </div>`;
+          </div>
+          `;
     })
     .join('');
   document.getElementById('products').innerHTML = showData;
+
+
+  // ✅ نضيف event لكل الكروت
+  document.querySelectorAll('.product-card').forEach((card) => {
+    card.addEventListener('click', () => {
+      const id = card.dataset.id; // دلوقتي هيجيب id صح
+      window.location.href = `product.html?id=${id}`;
+    });
+  });
 }
 
 // التعامل مع ازرار الخاصه بعرض التصنيفات المختلفه من المنتجات
@@ -82,6 +93,7 @@ function activateBtn(btn) {
   btn.style.backgroundColor = '#DB4444'; // الخلفية
   btn.style.color = '#ffffff'; // النص
 }
+
 
 btAll.addEventListener('click', () => {
   category = 'all';
